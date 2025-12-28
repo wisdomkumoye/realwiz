@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>About Me | Wisdom Kumoye</title>
+
+   <style>
+      body {
+         margin: 0;
+         font-family: Arial, Helvetica, sans-serif;
+         background-color: #f4f6f8;
+         color: #333;
+      }
+
+      header {
+         background-color: #273c75;
+         color: white;
+         padding: 40px 20px;
+         text-align: center;
+      }
+
+      section {
+         max-width: 900px;
+         margin: 30px auto;
+         padding: 25px;
+         background-color: white;
+         border-radius: 6px;
+         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      img {
+         max-width: 200px;
+         border-radius: 50%;
+         display: block;
+         margin: 20px auto;
+      }
+
+      h2 {
+         color: #273c75;
+      }
+
+      button {
+         padding: 10px 20px;
+         background-color: #273c75;
+         color: white;
+         border: none;
+         border-radius: 4px;
+         cursor: pointer;
+         margin-top: 10px;
+      }
+
+      button:hover {
+         background-color: #192a56;
+      }
+
+      footer {
+         background-color: #273c75;
+         color: white;
+         text-align: center;
+         padding: 15px;
+         margin-top: 40px;
+      }
+   </style>
+</head>
+
+<body>
+
+   <header>
+      <h1>About Me</h1>
+      <p>My name is Wisdom Kumoye</p>
+   </header>
+
+   <section>
+      <img src="image/WIN_20250709_09_41_48_Pro.jpg" alt="My Photo">
+
+      <h2>Introduction</h2>
+      <p>
+         My name is <strong>Wisdom Kumoye</strong>. I am a student who is interested in
+         technology and digital skills. I enjoy learning how websites are created
+         and how technology can be used to solve problems.
+      </p>
+   </section>
+
+   <section>
+      <h2>What I Am Learning</h2>
+      <p>
+         I am currently learning web development, starting with HTML, CSS,
+         and basic JavaScript. I am also learning how to upload my work online
+         using GitHub Pages.
+      </p>
+   </section>
+
+   <section>
+      <h2>My Interests</h2>
+      <p id="interestText">
+         Click the button below to see one of my interests.
+      </p>
+      <button onclick="showInterest()">Show Interest</button>
+   </section>
+
+   <footer>
+      <p>© 2025 Wisdom Kumoye</p>
+   </footer>
+
+   <script>
+      function showInterest() {
+         document.getElementById("interestText").innerText =
+            "I enjoy music, especially Afrobeats, and I also love learning new tech skills.";
+      }
+   </script>
+
+</body>
+
+</html>
